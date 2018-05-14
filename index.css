@@ -1,0 +1,264 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 120px;
+    background-color: #fff;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+html {
+    width: 100%;
+}
+
+.navbar li {
+    font-size: 1.125em;
+    padding-bottom: 0.725em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.info {
+    float: right;
+    margin-top: 1.875em;
+    font-size: 1.125em;
+}
+
+h1 {
+    color: #fff;
+    font-family: Georgia;
+    font-weight: bold;
+    margin-left: 1.875em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#home>h1>b {
+    font-family: georgia, cursive;
+    text-align: center;
+    font-weight: bolder;
+    color: #CD661D;
+    font-size: 1.125em;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-iteration-count: 1;
+    display: block;
+}
+
+#home>h1>span {
+    font-family: georgia, cursive;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 2.500em;
+    color: #CD661D;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-iteration-count: 1;
+    display: block;
+}
+
+#home {
+    background-color: #fff;
+    margin-top: -1.250em;
+    background-image: url(https://c1.staticflickr.com/5/4362/37200939925_779305ec6d_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 31.250em;
+    padding: auto;
+}
+
+#about {
+    background-color: #FDFDF0;
+    padding: 0.625em;
+    background-image: url(https://c1.staticflickr.com/5/4411/37058764991_765612764a_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border: 5px solid #Fff;
+    border-radius: 40%;
+    margin: 1.250em auto;
+    ;
+}
+
+h2 {
+    text-align: center;
+}
+
+#about b,
+#about li,
+#about p {
+    font-size: 1.250em;
+}
+
+#portfolio {
+    background-color: #FFFFFD;
+    padding-bottom: 15px;
+}
+
+#contact {
+    background-color: #fff;
+    background-image: url(https://c1.staticflickr.com/5/4425/37058759531_778f1c5492_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+}
+
+#message {
+    display: block;
+    margin: auto;
+}
+
+.foot {
+    background-color: #CFCFCF;
+    text-align: center;
+    padding-top: 0.625em;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: 1.5px double #333;
+    color: #333;
+    text-align: center;
+    width: 70%;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.2em;
+    padding: 0 0.25em;
+}
+
+#portfolio>h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel {
+    background-image: url(https://c1.staticflickr.com/5/4432/37200935055_0531c8610a_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.left.carousel-control {
+    background: none !important;
+    color: #fff;
+    width: 4%;
+}
+
+.right.carousel-control {
+    background: none !important;
+    color: #fff;
+    width: 4%;
+}
+
+.carousel-control:hover {
+    color: blue;
+}
+
+.item>img {
+    border-radius: 0;
+    width: 90%;
+}
+
+a.btn {
+    margin-bottom: 0.938em;
+}
+
+#contact p {
+    font-size: 0.750em;
+    display: block;
+}
+
+.form {
+    font-size: 0.875em;
+    padding: auto;
+}
+
+h4 {
+    font-family: 'cursive', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.375em;
+    color: #fff;
+    text-align: center;
+}
+
+button.btn:hover {
+    border: 1px solid greenyellow;
+}
+
+button.btn.github:hover {
+    border: 1px solid greenyellow;
+    background-color: #000;
+    color: #fff;
+}
+
+button.twitter {
+    background-color: #55ACEE;
+    color: #fff;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+button.freecodecamp {
+    background-color: #556B2F;
+    color: #fff;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+button.codepen {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+button.github {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+button.blogger {
+    background-color: orange;
+    color: #fff;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.textarea {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.buttons {
+    text-align: center;
+}
