@@ -247,9 +247,10 @@ button.blogger {
     margin: 10px auto;
 }
 
-.textarea, input {
-    width: 70%;
+input {
+    width: 50%;
     margin: auto;
+    display: inline-block;
 }
 
 textarea {
