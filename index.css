@@ -259,6 +259,11 @@ textarea {
     margin: auto;
 }
 
+.submit-reset {
+    display: flex;
+    justify-content: center;
+}
+
 .buttons {
     text-align: center;
 }
