@@ -3,8 +3,8 @@ $(document).ready(function() {
     $("h1>b").addClass("animate slideInRight");
 });
 
-var button = document.getElementsByClassName('button');
-var menu = document.getElementsByClassName('head-menu');
+var button = document.getElementsByClassName('button')[0];
+var menu = document.getElementsByClassName('menu')[0];
 
 function stack(event){
     menu.classList.toggle('nav-stacked');

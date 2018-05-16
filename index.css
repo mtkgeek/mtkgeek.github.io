@@ -11,6 +11,7 @@ body {
 
 html {
     width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar li {
@@ -25,7 +26,6 @@ html {
     display: flex;
     padding: 3px;
 }
-
 
 h1.navbar-brand {
     font-family: Georgia;
@@ -247,7 +247,7 @@ button.blogger {
     margin: 10px auto;
 }
 
-.textarea {
+.textarea, input {
     display: block;
     width: 70%;
     margin: auto;
@@ -264,8 +264,8 @@ textarea {
 }
 
 .navbar-toggle .icon-bar {
-    width: 50px !important;
-    height: 7px !important;
+    width: 40px !important;
+    height: 5px !important;
 }
 
 .navbar-header {
