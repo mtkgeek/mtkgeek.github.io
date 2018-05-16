@@ -283,3 +283,19 @@ textarea {
 .navbar-header {
     padding-top: 1.135em;
 }
+
+@media only screen and (max-width: 768px) {
+    input {
+        width: 40%;
+        margin: auto;
+        display: inline-block;
+    }
+    
+    textarea {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    
+
+}
