@@ -300,13 +300,13 @@ textarea {
     }
 
     .form > label {
-        font-size: 16px;
+        font-size: 14px;
         padding: auto;
     }
 
     .submit-reset > button {
         width: auto;
-        height: 20%;
+        height: 10%;
         margin: 5px; 
     }
     
