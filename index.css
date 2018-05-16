@@ -3,7 +3,7 @@ body {
     height: 100%;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 120px;
+    padding-top: 20px;
     background-color: #fff;
     overflow-x: hidden;
     margin: 0px;
@@ -15,13 +15,15 @@ html {
 
 .navbar li {
     font-size: 1.125em;
-    padding-bottom: 0.725em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    padding-top: 1.135em;
 }
 
 .navbar {
     width: 100%;
+    display: flex;
+    padding: 3px;
 }
 
 .info {
@@ -30,11 +32,15 @@ html {
     font-size: 1.125em;
 }
 
-h1 {
-    color: #fff;
+h1.navbar-brand {
     font-family: Georgia;
     font-weight: bold;
-    margin-left: 1.875em;
+    font-size: 1.7em;
+    color: #fff;
+}
+
+.navbar-header, .navbar-collapse {
+    margin-left: auto;
 }
 
 hr {
@@ -69,13 +75,12 @@ hr {
 
 #home {
     background-color: #fff;
-    margin-top: -1.250em;
     background-image: url(https://c1.staticflickr.com/5/4362/37200939925_779305ec6d_b.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
     height: 31.250em;
-    padding: auto;
+    padding-top: 15px;
 }
 
 #about {
@@ -92,7 +97,7 @@ img {
     border: 5px solid #Fff;
     border-radius: 40%;
     margin: 1.250em auto;
-    ;
+    
 }
 
 h2 {
@@ -261,4 +266,13 @@ textarea {
 
 .buttons {
     text-align: center;
+}
+
+.navbar-toggle .icon-bar {
+    width: 50px !important;
+    height: 7px !important;
+}
+
+.navbar-header {
+    padding-top: 1.135em;
 }
