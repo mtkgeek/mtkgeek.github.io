@@ -261,7 +261,7 @@ textarea {
 
 .submit-reset {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .buttons {
