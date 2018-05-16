@@ -12,6 +12,7 @@ body {
 html {
     width: 100%;
     overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
 }
 
 .navbar li {
@@ -31,7 +32,7 @@ h1.navbar-brand {
     font-family: Georgia;
     font-weight: bold;
     font-size: 1.7em;
-    color: #fff;
+    color: #55ACEE !important;
 }
 
 .navbar-header, .navbar-collapse {
@@ -254,14 +255,20 @@ input {
 }
 
 textarea {
-    width: 100%;
+    width: 40%;
     display: block;
     margin: auto;
 }
 
 .submit-reset {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.submit-reset > button {
+    width: auto;
+    height: 30%;
+    margin: 5px; 
 }
 
 .buttons {
