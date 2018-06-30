@@ -5,4 +5,3 @@ $(document).ready(function() {
 
 var button = document.getElementsByClassName('button')[0];
 var menu = document.getElementsByClassName('menu')[0];
-
