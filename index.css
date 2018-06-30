@@ -281,13 +281,11 @@ textarea {
 }
 
 .navcon {
-    margin-left: auto;
     display: block;
     width: 100%;
 }
 .navconhead {
     margin-left: auto;
-    width: 100%;
 }
 
 .navbar-header {
@@ -322,7 +320,8 @@ textarea {
 
     .nav-pills > li {
         font-size: 12px;
-        margin-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 5px;
     }
     
 
