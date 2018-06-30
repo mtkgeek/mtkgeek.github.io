@@ -305,6 +305,10 @@ textarea {
         height: 5%;
         margin: 5px; 
     }
+
+    .nav-pills > li {
+        font-size: 12px;
+    }
     
 
 }
