@@ -278,6 +278,7 @@ textarea {
 .navbar-toggle .icon-bar {
     width: 40px !important;
     height: 5px !important;
+    position: absolute;
 }
 
 .navbar-header {
