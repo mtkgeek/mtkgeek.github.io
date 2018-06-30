@@ -278,7 +278,10 @@ textarea {
 .navbar-toggle .icon-bar {
     width: 40px !important;
     height: 5px !important;
-    position: absolute;
+}
+
+.navcon {
+    margin-left: auto;
 }
 
 .navbar-header {
@@ -313,6 +316,7 @@ textarea {
 
     .nav-pills > li {
         font-size: 12px;
+        margin-bottom: 10px;
     }
     
 
