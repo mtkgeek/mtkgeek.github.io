@@ -22,6 +22,10 @@ html {
     padding-top: 1.135em;
 }
 
+.nav-pills {
+    margin-top: 5px;
+}
+
 .navbar {
     width: 100%;
     display: flex;
