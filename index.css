@@ -39,7 +39,7 @@ h1.navbar-brand {
     color: #55ACEE !important;
 }
 
-.navbar-header, .navbar-collapse {
+.navbar-header {
     margin-left: auto;
 }
 
@@ -282,6 +282,12 @@ textarea {
 
 .navcon {
     margin-left: auto;
+    display: block;
+    width: 100%;
+}
+.navconhead {
+    margin-left: auto;
+    width: 100%;
 }
 
 .navbar-header {
