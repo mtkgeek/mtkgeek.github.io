@@ -279,8 +279,6 @@ textarea {
     width: 40px !important;
     height: 5px !important;
     position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .navbar-header {
