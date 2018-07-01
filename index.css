@@ -23,12 +23,11 @@ html {
 }
 
 .nav-pills {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .navbar {
     width: 100%;
-    display: flex;
     padding: 3px;
 }
 
@@ -154,7 +153,7 @@ hr.style-eight:after {
     padding: 0 0.25em;
 }
 
-#portfolio>h4 {
+#portfolio>h3{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -280,16 +279,18 @@ textarea {
     height: 5px !important;
 }
 
-.navcon {
-    display: block;
-    width: 100%;
-}
-.navconhead {
+.navbar-header, .navbar-toggle {
     margin-left: auto;
+}
+.navcon {
+    display: flex;
 }
 
 .navbar-header {
     padding-top: 1.135em;
+}
+.navbar-collapse {
+    margin-left: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -320,9 +321,16 @@ textarea {
 
     .nav-pills > li {
         font-size: 12px;
-        margin-top: 40px;
-        margin-bottom: 5px;
-        display: inline;
+        margin-bottom: 15px;
+    }
+
+    .navcon {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        width: 100%;
     }
     
 
