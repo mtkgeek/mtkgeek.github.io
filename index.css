@@ -331,8 +331,7 @@ textarea {
 
     .navbar-collapse {
         width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
+        float: left;
     }
     
 
