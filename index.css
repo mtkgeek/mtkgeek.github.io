@@ -320,7 +320,7 @@ textarea {
     }
 
     .nav-pills > li {
-        font-size: 12px;
+        font-size: 10px;
         margin-bottom: 15px;
     }
 
@@ -331,7 +331,6 @@ textarea {
 
     .navbar-collapse {
         width: 100%;
-        float: left;
     }
     
 
