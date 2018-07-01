@@ -333,7 +333,7 @@ textarea {
     }
 
     .navcon {
-        display: flex;
+        display: block;
         width: 100%;
     }
 
