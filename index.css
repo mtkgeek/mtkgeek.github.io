@@ -322,6 +322,8 @@ textarea {
     .nav-pills > li {
         font-size: 12px;
         margin-bottom: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .navcon {
