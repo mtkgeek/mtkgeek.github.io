@@ -340,6 +340,10 @@ textarea {
     .navbar-collapse {
         width: 100%;
     }
+
+    .menu {
+        display: flex;
+    }
     
 
 }
