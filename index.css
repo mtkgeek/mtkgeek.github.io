@@ -282,8 +282,12 @@ textarea {
 .navbar-header, .navbar-toggle {
     margin-left: auto;
 }
-.navcon {
+.navconhead {
     display: flex;
+}
+
+.navcon {
+    margin-left: auto;
 }
 
 .navbar-header {
@@ -320,12 +324,16 @@ textarea {
     }
 
     .nav-pills > li {
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 15px;
     }
 
-    .navcon {
+    .navconhead {
         display: block;
+    }
+
+    .navcon {
+        display: flex;
         width: 100%;
     }
 
